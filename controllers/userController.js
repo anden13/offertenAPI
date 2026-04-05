@@ -11,4 +11,13 @@ exports.createUser = (req, res) => {
     message: 'User created',
     data: req.body
   });
+  
+};
+
+exports.findOffer = (req, res) => {
+  res.json({
+    message: 'Offer found',
+    data: req.body
+  });
+  
 };
